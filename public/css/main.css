@@ -1,0 +1,252 @@
+
+section{
+    width: 100%;
+    padding: 30px 0;
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.section-full{
+    max-width: 100%;
+    width: 100%;
+}
+
+.coluna-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.coluna-2{
+    width: 48%;
+    padding: 1%;
+    float: left;
+}
+
+.coluna-3{
+    width: 31.3%;
+    padding: 1%;
+    float: left;
+}
+
+#form-erros{
+    color: #CF1336;
+    padding-top: 5px;
+}
+
+#form-success{
+    color: #2cc36b;
+    padding-top: 5px;
+}
+
+#servicos, #informativos-titul, #missao-text{
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#servicos-list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servico-item{
+    text-align: center;
+    width:24%;
+    min-width:170px; 
+}
+
+.servico-item-img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    width:130px;
+    border: 7px solid #faa;
+    background: #CF1336;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+.servico-item-img:hover{
+    background: #e04b4b;
+}
+
+.servico-item-legenda h3{
+    color:  #CF1336;
+    margin: 10px 0 10px;
+}
+
+.servico-icon{
+    font-size:65px;
+    color:#fff;
+    transition-duration: 0.5s;
+}
+.servico-icon:hover{
+    font-size:80px;
+}
+
+#informativos-titul{
+    margin-bottom: 25px;
+}
+
+.noticia-img{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.noticia-img img{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.noticia-titulo{
+    padding: 10px 5px 10px 5px;
+    color: #dd4814;
+    font-size: 1em;
+    color: #CF1336;
+}
+
+.noticia-resumo{
+    padding: 0 5px 0 5px;
+}
+
+#loja .btn{
+    border: 1px solid #fff;
+}
+
+#loja{
+    color: #fff;
+    -webkit-box-shadow: 0px 3px 33px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 33px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 33px -10px rgba(0,0,0,0.75);
+    background: url(../images/efeito-background.png) right center no-repeat;
+    background-size: 226px 100%;
+    background-color: #CF1336;
+    display: flex;
+    max-height: 260px;
+}
+
+#loja-img{
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#loja-img img{
+    height: 100%;
+    min-width: 100%
+}
+
+#loja-text{
+    width: 55%;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+#missao{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(6, 22, 61, 0.7), rgba(6, 22, 61, 0.7)), url(../images/missao-background.jpg) right center no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    border-bottom: 5px solid #CF1336;
+}
+
+#missao .btn{
+    border: 1px solid #fff;
+}
+
+#contato{
+    background: #fffdf6;
+    border-bottom: 5px solid #CF1336;
+    -webkit-box-shadow: 0px 3px 33px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 33px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 33px -10px rgba(0,0,0,0.75);
+}
+
+.contato-icon{
+    font-size:30px;
+    color: #CF1336;
+}
+
+.flut-direita{
+    float: right;
+}
+.flut-esquerda{
+    float: left;
+    position: absolute;
+}
+
+.flut-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    margin-top: 10px;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    background-color: #CF1336;
+    border: 1px solid #CF1336;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #CF1336;
+    transition: all 0.5s;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input:focus, textArea:focus{
+    border: 1px solid #CF1336;
+}
+
+#telefone-txt, #celular-txt{
+    display: inline-table;
+    width: 45%;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+figcaption{
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+form{
+    max-width: 600px;
+}

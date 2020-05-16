@@ -1,0 +1,93 @@
+
+@media screen and (max-width:800px){
+
+    .show-menu-btn, .hide-menu-btn{
+        display: block;
+    }
+
+    .header-menu{
+        position: fixed;
+        top:0;
+        width: 100%;
+        background-color: #CF1336;
+        z-index: 999;
+    }
+
+    .menu{
+        position: fixed;
+        width: 40%;
+        height: 85%;
+        background: #fff;
+        right: -100%;
+        top:0;
+        border-left: red solid 5px;
+        flex-wrap:wrap;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+    }
+
+    .menu li{
+        width: 100%;
+        height: calc(10% - 1px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    .menu a{
+        color: red;
+        text-transform: uppercase;
+    }
+    
+    .menu-select a{
+        color:#fff;
+        border-radius: 0px;
+    }
+
+    .menu li:hover{
+        background: #ccc;
+    }
+
+    .hide-menu-btn{
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    }
+
+    #chk:checked ~ .menu{
+        right: 0;
+    }
+
+    #cabecalho{
+        height: 180px;
+        margin-top: 65px;
+    }
+
+    #logo{
+        top:90px;
+        width: 40%;
+    }
+
+    .coluna-2{
+        width: 100%;
+        margin: 0 5% 0 5%;
+    }
+    .coluna-3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #loja-img{
+        display: none;
+    }
+
+    #loja-text{
+        width: 100%;
+    }
+    .servico-item{
+        margin-bottom: 20px;
+    }
+}
